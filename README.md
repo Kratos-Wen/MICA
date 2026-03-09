@@ -2,15 +2,15 @@
   <h1>MICA: Multi-Agent Industrial Coordination Assistant</h1>
 
 <div>
-  <a href='https://cvhci.iar.kit.edu/people_2519.php' target='_blank'>Di Wen</a>&emsp;
-  <a href='https://cvhci.iar.kit.edu/people_2123.php' target='_blank'>Kunyu Peng&#8224;</a>&emsp;
+  <a href='https://scholar.google.com/citations?hl=en&oi=ao&user=aqGMqEcAAAAJ' target='_blank'>Di Wen</a>&emsp;
+  <a href='https://scholar.google.com/citations?hl=en&user=pA9c0YsAAAAJ' target='_blank'>Kunyu Peng&#8224;</a>&emsp;
   <a href='https://junweizheng93.github.io/' target='_blank'>Junwei Zheng</a>&emsp;
-  <a href='https://cvhci.iar.kit.edu/people_2407.php' target='_blank'>Yufan Chen</a>&emsp;
-  <a href='https://www.ifl.kit.edu/english/staff_5912.php' target='_blank'>Yitian Shi</a>&emsp;
-  <a href='https://cvhci.iar.kit.edu/people_2640.php' target='_blank'>Jiale Wei</a>&emsp;
-  <a href='https://cvhci.iar.kit.edu/people_2408.php' target='_blank'>Ruiping Liu</a>&emsp;
+  <a href='https://scholar.google.com/citations?hl=en&user=nG2ebe8AAAAJ' target='_blank'>Yufan Chen</a>&emsp;
+  <a href='https://scholar.google.com/citations?hl=en&user=DqU2TTEAAAAJ' target='_blank'>Yitian Shi</a>&emsp;
+  <a href='https://scholar.google.com/citations?hl=en&user=dVpZgIUAAAAJ' target='_blank'>Jiale Wei</a>&emsp;
+  <a href='https://scholar.google.com/citations?hl=en&user=tJYUHDgAAAAJ' target='_blank'>Ruiping Liu</a>&emsp;
   <a href='https://yangkailun.com/' target='_blank'>Kailun Yang</a>&emsp;
-  <a href='https://cvhci.iar.kit.edu/people_596.php' target='_blank'>Rainer Stiefelhagen</a>
+  <a href='https://scholar.google.com/citations?hl=en&user=SFCOJxMAAAAJ' target='_blank'>Rainer Stiefelhagen</a>
 </div>
 
 <br>
