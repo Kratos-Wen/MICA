@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">MICA teaser placeholder</title>
+  <desc id="desc">Placeholder image for the MICA paper overview figure on the repository front page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f6f8"/>
+      <stop offset="100%" stop-color="#dde7f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1460" height="760" rx="28" fill="#ffffff" stroke="#b7c7d8" stroke-width="4"/>
+  <rect x="120" y="150" width="340" height="520" rx="24" fill="#eef4fa" stroke="#9cb5cc" stroke-width="3"/>
+  <rect x="530" y="150" width="260" height="520" rx="24" fill="#f6f8fb" stroke="#9cb5cc" stroke-width="3"/>
+  <rect x="860" y="150" width="260" height="520" rx="24" fill="#f6f8fb" stroke="#9cb5cc" stroke-width="3"/>
+  <rect x="1190" y="150" width="290" height="520" rx="24" fill="#eef4fa" stroke="#9cb5cc" stroke-width="3"/>
+  <path d="M460 410 L530 410" stroke="#6b8aa5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M790 410 L860 410" stroke="#6b8aa5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1120 410 L1190 410" stroke="#6b8aa5" stroke-width="10" stroke-linecap="round"/>
+  <text x="800" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" fill="#17324d">MICA Repository Teaser Placeholder</text>
+  <text x="290" y="215" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#17324d">Perception</text>
+  <text x="660" y="215" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#17324d">Step Recognition</text>
+  <text x="990" y="215" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#17324d">MICA-core</text>
+  <text x="1335" y="215" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#17324d">Interaction</text>
+  <text x="290" y="760" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#425d78">Replace this SVG with the paper overview figure.</text>
+  <text x="800" y="760" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#425d78">Keep the filename to preserve the README layout.</text>
+</svg>

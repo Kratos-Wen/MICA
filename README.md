@@ -1,7 +1,46 @@
 <div align="center">
   <h1>MICA: Multi-Agent Industrial Coordination Assistant</h1>
-  <p>Paper-aligned modular implementation for wearable industrial assistance</p>
+
+<div>
+  Di Wen<sup>1</sup>&emsp;
+  Kunyu Peng<sup>1,2&#8224;</sup>&emsp;
+  Junwei Zheng<sup>1</sup>&emsp;
+  Yufan Chen<sup>1</sup>&emsp;
+  Yitian Shi<sup>1</sup>&emsp;
+  Jiale Wei<sup>1</sup>&emsp;
+  Ruiping Liu<sup>1</sup>&emsp;
+  Kailun Yang<sup>3</sup>&emsp;
+  Rainer Stiefelhagen<sup>1</sup>
 </div>
+
+<br>
+
+<div>
+  <sup>1</sup>Karlsruhe Institute of Technology (KIT), Germany<br>
+  <sup>2</sup>INSAIT, Sofia University "St. Kliment Ohridski", Bulgaria<br>
+  <sup>3</sup>Hunan University, China
+</div>
+
+<br>
+
+<strong>arXiv preprint</strong><br>
+<sub>&#8224; Corresponding author</sub><br><br>
+
+[![arXiv](https://img.shields.io/badge/arXiv-2509.15237-B31B1B.svg)](https://arxiv.org/abs/2509.15237)
+[![DOI](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2509.15237-0A66C2.svg)](https://doi.org/10.48550/arXiv.2509.15237)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-0A66C2.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Kratos-Wen/MICA?style=social&cacheSeconds=300)](https://github.com/Kratos-Wen/MICA)
+[![GitHub Forks](https://img.shields.io/github/forks/Kratos-Wen/MICA)](https://github.com/Kratos-Wen/MICA/forks)
+</div>
+
+<p align="center">
+  <img src="assets/teaser_placeholder.svg" alt="MICA teaser placeholder" width="92%">
+</p>
+
+<p align="center">
+  Replace <code>assets/teaser_placeholder.svg</code> with the paper teaser figure when the final visual is ready.
+</p>
 
 ## Overview
 
