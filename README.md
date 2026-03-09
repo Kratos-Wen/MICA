@@ -41,45 +41,12 @@ The codebase is organized around the three method components described in the pa
 - `MICA-core`
 
 The implementation supports both offline video evaluation and live camera inference.
-To preserve the existing system behavior, the original backend logic is retained inside `mica/legacy_impl/`, while the public-facing structure is exposed through modules and a shared runtime.
 
 ## Path Configuration Notice
 
 - Every path written as `/path/to/...` is a placeholder.
 - Replace these placeholders with paths on your own machine before running.
 - Model weights and test assets are not bundled in this repository.
-
-## Repository Layout
-
-```text
-MICA/
-  LICENSE
-  README.md
-  mica/
-    cli.py
-    config.py
-    types.py
-    legacy_impl/
-      agents/
-      core/
-    modules/
-      depth_guided_object_context_extraction.py
-      adaptive_assembly_step_recognition.py
-      mica_core.py
-    runtime/
-      pipeline.py
-      offline_runner.py
-      live_runner.py
-      interaction.py
-      artifacts.py
-      sources.py
-      ui.py
-    resources/
-      config.example.yaml
-      kb.example.json
-      prompts.yaml
-    requirements.txt
-```
 
 ## Setup
 
@@ -108,46 +75,6 @@ Optional assets:
 - a local LLM endpoint for MICA-core question answering
 
 If `gallery.root` is left empty in the config, the runtime skips gallery indexing and still runs.
-
-## Modules
-
-### 1. Depth-guided Object Context Extraction
-
-This module covers:
-
-- object detection
-- temporal detection fusion
-- depth estimation
-- depth-guided relevant object selection
-
-Entry point:
-
-- `mica/modules/depth_guided_object_context_extraction.py`
-
-### 2. Adaptive Assembly Step Recognition
-
-This module combines:
-
-- a state-graph expert derived from the knowledge base
-- a retrieval expert over reference images
-- Adaptive Step Fusion (ASF) for online combination and correction
-
-Entry point:
-
-- `mica/modules/adaptive_assembly_step_recognition.py`
-
-### 3. MICA-core
-
-This module provides:
-
-- task routing
-- role-specialized response generation
-- multi-topology agent orchestration
-- optional safety auditing
-
-Entry point:
-
-- `mica/modules/mica_core.py`
 
 ## Run
 
