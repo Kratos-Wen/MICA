@@ -5,10 +5,10 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from mica_glasses_open.config import load_config
-from mica_glasses_open.runtime.live_runner import run_camera
-from mica_glasses_open.runtime.offline_runner import run_video
-from mica_glasses_open.runtime.sources import discover_yolo_weights
+from mica.config import load_config
+from mica.runtime.live_runner import run_camera
+from mica.runtime.offline_runner import run_video
+from mica.runtime.sources import discover_yolo_weights
 
 
 def _default_kb_path() -> str:

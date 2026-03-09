@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import Dict, Any, List
-from mica_glasses_open.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.llm import LLM
 
 class LLMAggregatorAgent:
     """LLM-based aggregator that merges multiple answers (for CentralizedBroadcast)."""

@@ -8,17 +8,17 @@ from pathlib import Path
 
 import cv2
 
-from mica_glasses_open.legacy_impl.core.kb import load_kb
-from mica_glasses_open.paper_modules.depth_guided_object_context_extraction import (
+from mica.legacy_impl.core.kb import load_kb
+from mica.paper_modules.depth_guided_object_context_extraction import (
     draw_overlay,
     safe_crop,
 )
-from mica_glasses_open.runtime.artifacts import RunArtifacts
-from mica_glasses_open.runtime.interaction import handle_stable_console_interaction
-from mica_glasses_open.runtime.kb_utils import ensure_parent
-from mica_glasses_open.runtime.pipeline import MICAPipeline
-from mica_glasses_open.runtime.sources import open_camera_capture
-from mica_glasses_open.runtime.ui import LiveUI
+from mica.runtime.artifacts import RunArtifacts
+from mica.runtime.interaction import handle_stable_console_interaction
+from mica.runtime.kb_utils import ensure_parent
+from mica.runtime.pipeline import MICAPipeline
+from mica.runtime.sources import open_camera_capture
+from mica.runtime.ui import LiveUI
 
 
 def run_camera(

@@ -1,7 +1,7 @@
 """Query router and safety checker."""
 from __future__ import annotations
 from typing import Dict, Any
-from mica_glasses_open.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.llm import LLM
 
 def route(query: str) -> str:
     q = (query or "").lower()

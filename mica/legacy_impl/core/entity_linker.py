@@ -3,8 +3,8 @@ from __future__ import annotations
 from typing import List, Dict, Any, Optional
 import json
 from pathlib import Path
-from mica_glasses_open.legacy_impl.core.llm import LLM
-from mica_glasses_open.legacy_impl.core.llm_json import ask_json
+from mica.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.llm_json import ask_json
 
 class LLMEntityLinker:
     """

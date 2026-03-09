@@ -24,7 +24,7 @@ To preserve implementation continuity, the current backend logic is retained und
 ## Repository Layout
 
 ```text
-mica_glasses_open/
+mica/
   cli.py
   config.py
   types.py
@@ -54,11 +54,11 @@ mica_glasses_open/
 
 ### 1. Create an Environment
 
-Create and activate a clean Python environment, then install dependencies:
+Create and activate a clean conda environment, then install dependencies:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+conda create -n mica python=3.10 -y
+conda activate mica
 pip install -U pip
 pip install -r requirements.txt
 ```
@@ -125,7 +125,7 @@ From the repository root:
 ### Offline Video
 
 ```bash
-python -m mica_glasses_open \
+python -m mica \
   --video /path/to/video.mp4 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
@@ -136,7 +136,7 @@ python -m mica_glasses_open \
 ### Live Camera
 
 ```bash
-python -m mica_glasses_open \
+python -m mica \
   --camera 0 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
@@ -170,7 +170,7 @@ The CLI exposes component-level ablations directly:
 Example:
 
 ```bash
-python -m mica_glasses_open \
+python -m mica \
   --video /path/to/video.mp4 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
@@ -187,9 +187,3 @@ Each run writes structured artifacts to the configured output directory, includi
 - `manifest.json`
 - optional annotated video
 - persistent ASF weights
-
-## Notes
-
-- The repository is intended as an implementation of the accompanying MICA paper.
-- `legacy_impl/` stores the preserved backend implementation; public-facing experimentation should target `paper_modules/` and `runtime/`.
-- When the local LLM endpoint is unavailable, the perception and step-recognition pipeline still runs, while QA falls back to a lightweight offline response path.

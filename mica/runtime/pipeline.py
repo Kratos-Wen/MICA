@@ -5,23 +5,23 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict
 
-from mica_glasses_open.legacy_impl.core.asf import ASF
-from mica_glasses_open.legacy_impl.core.context_extraction import select_by_depth
-from mica_glasses_open.legacy_impl.core.depth import DepthStub
-from mica_glasses_open.legacy_impl.core.entity_linker import LLMEntityLinker
-from mica_glasses_open.legacy_impl.core.fusion import fuse_window
-from mica_glasses_open.legacy_impl.core.kb import build_alias_map
-from mica_glasses_open.legacy_impl.core.llm import LLM
-from mica_glasses_open.legacy_impl.core.retrieval import GalleryIndex
-from mica_glasses_open.legacy_impl.core.yolo import YOLODetector
-from mica_glasses_open.paper_modules.adaptive_assembly_step_recognition import (
+from mica.legacy_impl.core.asf import ASF
+from mica.legacy_impl.core.context_extraction import select_by_depth
+from mica.legacy_impl.core.depth import DepthStub
+from mica.legacy_impl.core.entity_linker import LLMEntityLinker
+from mica.legacy_impl.core.fusion import fuse_window
+from mica.legacy_impl.core.kb import build_alias_map
+from mica.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.retrieval import GalleryIndex
+from mica.legacy_impl.core.yolo import YOLODetector
+from mica.paper_modules.adaptive_assembly_step_recognition import (
     AdaptiveAssemblyStepRecognition,
 )
-from mica_glasses_open.paper_modules.depth_guided_object_context_extraction import (
+from mica.paper_modules.depth_guided_object_context_extraction import (
     DepthGuidedObjectContextExtraction,
 )
-from mica_glasses_open.paper_modules.mica_core import MICACore, load_prompts
-from mica_glasses_open.types import FrameDecision
+from mica.paper_modules.mica_core import MICACore, load_prompts
+from mica.types import FrameDecision
 
 
 class SlidingWindowFuser:

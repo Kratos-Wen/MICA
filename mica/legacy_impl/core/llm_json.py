@@ -2,7 +2,7 @@
 from __future__ import annotations
 from typing import Any, Dict
 import json
-from mica_glasses_open.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.llm import LLM
 
 def ask_json(llm: LLM, system: str, user: str, fallback: Dict[str, Any]) -> Dict[str, Any]:
     """

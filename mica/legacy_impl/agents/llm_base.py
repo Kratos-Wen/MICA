@@ -1,7 +1,7 @@
 """LLM-based agent base class using templated prompts."""
 from __future__ import annotations
 from typing import Dict, Any
-from mica_glasses_open.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.llm import LLM
 
 class LLMAgent:
     """

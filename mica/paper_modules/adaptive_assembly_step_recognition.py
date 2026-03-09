@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from mica_glasses_open.types import PerceptionContext, StepPredictionBundle
+from mica.types import PerceptionContext, StepPredictionBundle
 
 
 class AdaptiveAssemblyStepRecognition:
@@ -39,7 +39,7 @@ class AdaptiveAssemblyStepRecognition:
             return 0
 
     def _state_prediction(self, detections: List[Dict[str, Any]]):
-        from mica_glasses_open.legacy_impl.core.step_rules import compat_vector, predict_by_rules
+        from mica.legacy_impl.core.step_rules import compat_vector, predict_by_rules
 
         step_id, confidence, meta = predict_by_rules(self.kb, detections)
         compat = compat_vector(self.kb, detections, self.steps)

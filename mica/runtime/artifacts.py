@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from mica_glasses_open.runtime.kb_utils import ensure_parent
+from mica.runtime.kb_utils import ensure_parent
 
 
 class RunArtifacts:

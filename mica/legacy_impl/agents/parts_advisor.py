@@ -2,7 +2,7 @@
 """Parts Advisor agent: describe visible parts using KB fields."""
 from __future__ import annotations
 from typing import Dict, Any, List
-from mica_glasses_open.legacy_impl.core.kb import rag_fields_for_component
+from mica.legacy_impl.core.kb import rag_fields_for_component
 
 # def answer(context: Dict[str,Any], kb: Dict[str,Any]) -> str:
 #     """

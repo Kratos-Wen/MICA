@@ -44,7 +44,7 @@ The codebase is organized around the three method components described in the pa
 - `MICA-core`
 
 The implementation supports both offline video evaluation and live camera inference.
-To preserve the existing system behavior, the original backend logic is retained inside `mica_glasses_open/legacy_impl/`, while the public-facing structure is exposed through paper-aligned modules and a shared runtime.
+To preserve the existing system behavior, the original backend logic is retained inside `mica/legacy_impl/`, while the public-facing structure is exposed through paper-aligned modules and a shared runtime.
 
 ## Path Configuration Notice
 
@@ -58,7 +58,7 @@ To preserve the existing system behavior, the original backend logic is retained
 MICA/
   LICENSE
   README.md
-  mica_glasses_open/
+  mica/
     cli.py
     config.py
     types.py
@@ -88,13 +88,13 @@ MICA/
 
 ### 1. Create an Environment
 
-Create and activate a clean Python environment, then install dependencies:
+Create and activate a clean conda environment, then install dependencies:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+conda create -n mica python=3.10 -y
+conda activate mica
 pip install -U pip
-pip install -r mica_glasses_open/requirements.txt
+pip install -r mica/requirements.txt
 ```
 
 ### 2. Prepare Required Assets
@@ -125,7 +125,7 @@ This module covers:
 
 Entry point:
 
-- `mica_glasses_open/paper_modules/depth_guided_object_context_extraction.py`
+- `mica/paper_modules/depth_guided_object_context_extraction.py`
 
 ### 2. Adaptive Assembly Step Recognition
 
@@ -137,7 +137,7 @@ This module combines:
 
 Entry point:
 
-- `mica_glasses_open/paper_modules/adaptive_assembly_step_recognition.py`
+- `mica/paper_modules/adaptive_assembly_step_recognition.py`
 
 ### 3. MICA-core
 
@@ -150,7 +150,7 @@ This module provides:
 
 Entry point:
 
-- `mica_glasses_open/paper_modules/mica_core.py`
+- `mica/paper_modules/mica_core.py`
 
 ## Run
 
@@ -159,27 +159,27 @@ Run from the repository root.
 ### Offline Video
 
 ```bash
-python -m mica_glasses_open \
+python -m mica \
   --video /path/to/video.mp4 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
-  --config mica_glasses_open/resources/config.example.yaml \
+  --config mica/resources/config.example.yaml \
   --device cpu
 ```
 
 ### Live Camera
 
 ```bash
-python -m mica_glasses_open \
+python -m mica \
   --camera 0 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
-  --config mica_glasses_open/resources/config.example.yaml \
+  --config mica/resources/config.example.yaml \
   --device cpu \
   --interactive
 ```
 
-If `--kb` is omitted, the example knowledge base in `mica_glasses_open/resources/kb.example.json` is used.
+If `--kb` is omitted, the example knowledge base in `mica/resources/kb.example.json` is used.
 
 ## Runtime Controls
 
@@ -204,7 +204,7 @@ The CLI exposes component-level ablations directly:
 Example:
 
 ```bash
-python -m mica_glasses_open \
+python -m mica \
   --video /path/to/video.mp4 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
@@ -239,9 +239,3 @@ If you find this repository useful, please cite the current arXiv version:
 ## Acknowledgment
 
 This repository builds on and interfaces with several open-source projects, including [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), [PyTorch](https://pytorch.org/), [Torchvision](https://github.com/pytorch/vision), [OpenCV](https://opencv.org/), [OpenCLIP](https://github.com/mlfoundations/open_clip) for optional gallery embeddings, and [Ollama](https://github.com/ollama/ollama) for local LLM serving. We thank the maintainers and contributors of these projects for making their tools publicly available.
-
-## Notes
-
-- This repository is intended as the implementation of the accompanying MICA paper.
-- `mica_glasses_open/legacy_impl/` stores the preserved backend implementation; public-facing experimentation should target `paper_modules/` and `runtime/`.
-- When the local LLM endpoint is unavailable, the perception and step-recognition pipeline still runs, while QA falls back to a lightweight offline response path.

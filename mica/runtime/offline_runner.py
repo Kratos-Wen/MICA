@@ -7,12 +7,12 @@ from pathlib import Path
 
 import cv2
 
-from mica_glasses_open.legacy_impl.core.kb import load_kb
-from mica_glasses_open.paper_modules.depth_guided_object_context_extraction import draw_overlay
-from mica_glasses_open.runtime.artifacts import RunArtifacts
-from mica_glasses_open.runtime.interaction import handle_stable_console_interaction
-from mica_glasses_open.runtime.kb_utils import ensure_parent
-from mica_glasses_open.runtime.pipeline import MICAPipeline
+from mica.legacy_impl.core.kb import load_kb
+from mica.paper_modules.depth_guided_object_context_extraction import draw_overlay
+from mica.runtime.artifacts import RunArtifacts
+from mica.runtime.interaction import handle_stable_console_interaction
+from mica.runtime.kb_utils import ensure_parent
+from mica.runtime.pipeline import MICAPipeline
 
 
 def run_video(

@@ -8,23 +8,23 @@ from typing import Any, Dict, List
 
 import yaml
 
-from mica_glasses_open.legacy_impl.agents import parts_advisor
-from mica_glasses_open.legacy_impl.agents.llm_agents import (
+from mica.legacy_impl.agents import parts_advisor
+from mica.legacy_impl.agents.llm_agents import (
     LLMAssemblyGuide,
     LLMFaultHandler,
     LLMGeneralAgent,
     LLMMaintenanceAdvisor,
     LLMPartsAdvisor,
 )
-from mica_glasses_open.legacy_impl.agents.llm_aggregator import LLMAggregatorAgent
-from mica_glasses_open.legacy_impl.agents.llm_evaluator import LLMEvaluatorAgent
-from mica_glasses_open.legacy_impl.agents.llm_safety import LLMSafetyChecker
-from mica_glasses_open.legacy_impl.agents.orchestrators import Orchestrator
-from mica_glasses_open.legacy_impl.agents.router import LLMRouter, route, safety_check
-from mica_glasses_open.legacy_impl.core.kb import rag_fields_for_component
-from mica_glasses_open.legacy_impl.core.memory import Memory
-from mica_glasses_open.runtime.kb_utils import kb_components_list, kb_index_by_name
-from mica_glasses_open.types import FrameDecision, QAResponse
+from mica.legacy_impl.agents.llm_aggregator import LLMAggregatorAgent
+from mica.legacy_impl.agents.llm_evaluator import LLMEvaluatorAgent
+from mica.legacy_impl.agents.llm_safety import LLMSafetyChecker
+from mica.legacy_impl.agents.orchestrators import Orchestrator
+from mica.legacy_impl.agents.router import LLMRouter, route, safety_check
+from mica.legacy_impl.core.kb import rag_fields_for_component
+from mica.legacy_impl.core.memory import Memory
+from mica.runtime.kb_utils import kb_components_list, kb_index_by_name
+from mica.types import FrameDecision, QAResponse
 
 
 def load_prompts() -> Dict[str, Any]:

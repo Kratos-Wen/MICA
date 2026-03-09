@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import Dict, Any, List
 import json
-from mica_glasses_open.legacy_impl.core.llm import LLM
+from mica.legacy_impl.core.llm import LLM
 
 class LLMEvaluatorAgent:
     """LLM-based evaluator that selects the best candidate (for SharedMemory)."""

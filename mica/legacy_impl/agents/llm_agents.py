@@ -1,7 +1,7 @@
 """LLM-backed specialized agents."""
 from __future__ import annotations
 from typing import Dict, Any
-from mica_glasses_open.legacy_impl.agents.llm_base import LLMAgent
+from mica.legacy_impl.agents.llm_base import LLMAgent
 
 class LLMAssemblyGuide(LLMAgent):
     def __init__(self, llm, prompts, lang="en"):

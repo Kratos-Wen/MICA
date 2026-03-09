@@ -8,8 +8,8 @@ from typing import Any, Dict, List, Optional, Tuple
 import cv2
 import numpy as np
 
-from mica_glasses_open.runtime.kb_utils import kb_components_list, kb_index_by_name
-from mica_glasses_open.types import PerceptionContext
+from mica.runtime.kb_utils import kb_components_list, kb_index_by_name
+from mica.types import PerceptionContext
 
 
 Detection = Dict[str, Any]

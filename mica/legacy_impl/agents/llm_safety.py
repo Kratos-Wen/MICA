@@ -2,7 +2,7 @@
 from __future__ import annotations
 from typing import Dict, Any, List
 import json
-from mica_glasses_open.legacy_impl.agents.llm_base import LLMAgent
+from mica.legacy_impl.agents.llm_base import LLMAgent
 
 class LLMSafetyChecker(LLMAgent):
     def __init__(self, llm, prompts, lang="en"):
