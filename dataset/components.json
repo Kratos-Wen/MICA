@@ -1,0 +1,527 @@
+{
+  "Type 6 Gearbox Cover": {
+  "Part No.": "1391073305",
+  "Color": "Black",
+  "Key Features": [
+    "Marked with '074142', '3304' and 'PBT-GF30'",
+    "Made of PBT-GF30 (glass fiber reinforced plastic)",
+    "Contains 6 screw holes for secure attachment"
+  ],
+  "Assembly Safety Instructions": [
+    "Wear gloves during assembly.",
+    "Ensure workspace is clean."
+  ],
+  "Tools and Equipment": ["Rubber mallet"],
+  "Parts List": [
+    "Type 6 Gearbox Housing, Part No. 1395107155",
+    "Type 2 Gear, Part No. 1396329204",
+    "Type 7 Gear, Part No. 1396329205"
+  ],
+  "Assembly Steps": [
+    "Step 1: Position the Type 6 Gearbox Housing on a stable flat surface.",
+    "Step 2: Insert the Type 7 Gear into the housing with the smaller-diameter side facing upward.",
+    "Step 3: Align the Type 2 Gear on top of the Type 7 Gear, ensuring the longer shaft side is inserted into the housing and the teeth are properly meshed.",
+    "Step 4: Align the Type 6 Gearbox Cover with the housing pegs.",
+    "Step 5: Apply uniform pressure to snap the cover into place.",
+    "Step 6: Visually inspect the seal to confirm secure attachment."
+  ],
+  "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+},
+
+  "Type 6 Gearbox Housing": {
+    "Part No.": "1395107155",
+    "Color":"Black",
+    "Key Features": [
+    "Marked with '074142', '3304' and 'PBT-GF30'",
+    "Made of PBT-GF30 (glass fiber reinforced plastic)",
+    "Cavity depth accommodate thinner gears"
+    ],
+    "Assembly Safety Instructions": [
+      "Wear gloves during assembly.",
+      "Keep the area clean and free of debris."
+    ],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 6 Gearbox Cover, Part No. 1391073305",
+      "Type 2 Gear, Part No. 1396329204",
+      "Type 7 Gear, Part No. 1396329205"
+    ],
+    "Assembly Steps": [
+      "Step 1: Place the housing on a flat surface.",
+      "Step 2: Insert the Type 7 Gear vertically into the center cavity, ensuring the smaller diameter faces upward.",
+      "Step 3: Slide Type 2 Gear onto the Type 7 Gear. Make sure the longer shaft side enters the deeper cavity and teeth align correctly.",
+      "Step 4: Use slight rotation to ensure full meshing between the gears.",
+      "Step 5: Prepare for cover placement by aligning screw holes around the edge of the housing."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+},
+
+  "Type 5 Gearbox Housing": {
+    "Part No.": "1390000000",
+    "Color":"Black",
+    "Key Features": [
+    "Marked with '073659', '7194' and 'PBT-GF30'",
+    "Made of PBT-GF30 (glass fiber reinforced plastic)",
+    "Cavity depth accommodate thicker gears"
+    ],
+    "Assembly Safety Instructions": [
+      "Use gloves during handling.",
+      "Work area should be clean."
+    ],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 5 Gearbox Cover, Part No. 1390000001",
+      "Type 3 Gear, Part No. 1396329203",
+      "Type 8 Gear, Part No. 1396329202"
+    ],
+    "Assembly Steps": [
+      "Step 1: Place the housing on a flat and stable assembly jig.",
+      "Step 2: Insert the Type 3 Gear vertically into the center cavity, ensuring the smaller diameter faces upward.",
+      "Step 3: Slide Type 8 Gear onto the Type 2 Gear. Make sure the longer shaft side enters the deeper cavity and teeth align correctly.",
+      "Step 4: Use slight rotation to ensure full meshing between the gears.",
+      "Step 5: Prepare for cover placement by aligning screw holes around the edge of the type 5 Gearbox housing."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+},
+
+  "Type 5 Gearbox Cover": {
+    "Part No.": "1390000001",
+    "Color":"Black",
+    "Key Features": [
+    "Marked with '073659', '3336' and 'PBT-GF30'",
+    "Made of PBT-GF30 (glass fiber reinforced plastic)",
+    "Contains 5 screw holes for secure attachment"
+    ],
+    "Assembly Safety Instructions": [
+      "Wear protective gloves.",
+      "Maintain cleanliness of workspace."
+    ],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 5 Gearbox Housing, Part No. 1390000000",
+      "Type 3 Gear, Part No. 1396329203",
+      "Type 8 Gear, Part No. 1396329202"
+    ],
+    "Assembly Steps": [
+      "Step 1: Position the Type 5 Gearbox Housing on a stable flat surface.",
+      "Step 2: Insert the Type 3 Gear into the housing with the smaller-diameter side facing upward.",
+      "Step 3: Align the Type 8 Gear on top of the Type 3 Gear, ensuring the longer shaft side is inserted into the housing and the teeth are properly meshed.",
+      "Step 4: Align the Type 5 Gearbox Cover with the housing pegs.",
+      "Step 5: Apply uniform pressure to snap the cover into place.",
+      "Step 6: Visually inspect the seal to confirm secure attachment."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+  },
+
+  "Type 7 Gear": {
+    "Part No.": "1396329205",
+    "Color":"White",
+    "Key Features": [
+    "Marked with '59425', '9204' and '7'",
+    "Made of Polyoxymethylene",
+    "Without black spot marker"
+    ],
+    "Assembly Safety Instructions": ["Use gloves.", "Ensure clean environment."],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 6 Gearbox Housing, Part No. 1395107155",
+      "Type 6 Gearbox Cover, Part No. 1391073305",
+      "Type 2 Gear, Part No. 1396329204"
+    ],
+    "Assembly Steps": [
+      "Step 1: Position the Type 6 gearbox housing on a stable flat surface.",
+      "Step 2: Install into Type 6 gearbox housing with smaller diameter faces upward.",
+      "Step 3: Align the Type 2 Gear on top of the Type 7 Gear, ensuring the longer shaft side is inserted into the housing and the teeth are properly meshed.",
+      "Step 4: Align the Type 5 Gearbox Cover with the housing pegs.",
+      "Step 5: Apply uniform pressure to snap the cover into place.",
+      "Step 6: Visually inspect the seal to confirm secure attachment."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+  },
+
+  "Type 2 Gear": {
+    "Part No.": "1396329204",
+    "Color": "White",
+    "Key Features": [
+    "Marked with '9205'",
+    "Made of Polyoxymethylene",
+    "Without green spot marker"
+    ],
+    "Assembly Safety Instructions": ["Use gloves.", "Keep workspace tidy."],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 6 Gearbox Housing, Part No. 1395107155",
+      "Type 6 Gearbox Cover, Part No. 1391073305",
+      "Type 7 Gear, Part No. 1396329205"
+    ],
+    "Assembly Steps": [
+    "Step 1: Place the Type 6 Gearbox Housing on a stable flat surface.",
+    "Step 2: Ensure Type 7 Gear is placed with smaller diameter end faces upward into the center cavity of the Type 6 gearbox housing.",
+    "Step 3: Align the Type 2 Gear on top of the Type 7 Gear, ensuring the longer shaft side is inserted into the housing and the teeth are properly meshed.",
+    "Step 4: Rotate slightly if needed to allow proper seating and prepare for meshing with Type 7 Gear.",
+    "Step 5: Align the Type 6 Gearbox Cover with the housing pegs.",
+    "Step 6: Apply uniform pressure to snap the cover into place.",
+    "Step 7: Visually inspect the seal to confirm secure attachment."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+  },
+
+  "Type 8 Gear": {
+    "Part No.": "1396329202",
+    "Color": "White",
+    "Key Features": [
+    "Marked with '13501', '23' and '9206'",
+    "Made of Polyoxymethylene",
+    "With green spot marker"
+    ],
+    "Assembly Safety Instructions": ["Wear gloves.", "Keep clean workspace."],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 5 Gearbox Housing, Part No. 1390000000",
+      "Type 5 Gearbox Cover, Part No. 1390000001",
+      "Type 3 Gear, Part No. 1396329203"
+    ],
+    "Assembly Steps": [
+    "Step 1: Place the Type 5 Gearbox housing on a stable flat surface.",
+    "Step 2: Ensure Type 3 Gear is placed with smaller diameter end faces upward into the center cavity of the Type 5 gearbox housing.",
+    "Step 3: Align the Type 8 Gear on top of the Type 3 Gear, ensuring the longer shaft side is inserted into the housing and the teeth are properly meshed.",
+    "Step 4: Rotate slightly if needed to allow proper seating and prepare for meshing with Type 3 Gear.",
+    "Step 5: Align the Type 6 Gearbox Cover with the housing pegs.",
+    "Step 6: Apply uniform pressure to snap the cover into place.",
+    "Step 7: Visually inspect the seal to confirm secure attachment."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+  },
+
+  "Type 3 Gear": {
+    "Part No.": "1396329203",
+    "Color": "White",
+    "Key Features": [
+    "Marked with '12501', '9207', '22' and 'POM'",
+    "Made of Polyoxymethylene",
+    "With black spot marker"
+    ],
+    "Assembly Safety Instructions": ["Wear gloves.", "Keep area tidy."],
+    "Tools and Equipment": [],
+    "Parts List": [
+      "Type 5 Gearbox Housing, Part No. 1390000000",
+      "Type 5 Gearbox Cover, Part No. 1390000001",
+      "Type 8 Gear, Part No. 1396329202"
+    ],
+    "Assembly Steps": [
+    "Step 1: Place the Type 5 gearbox housing on a flat stable surface",
+    "Step 2: Ensure Type 3 Gear is placed with smaller diameter end faces upward into the center cavity of the Type 5 gearbox housing.",
+    "Step 3: Align the Type 8 Gear on top of the Type 3 Gear, ensuring the longer shaft side is inserted into the housing and the teeth are properly meshed.",
+    "Step 4: Rotate slightly if needed to allow proper seating and prepare for meshing with Type 3 Gear.",
+    "Step 5: Align the Type 6 Gearbox Cover with the housing pegs.",
+    "Step 6: Apply uniform pressure to snap the cover into place.",
+    "Step 7: Visually inspect the seal to confirm secure attachment."
+    ],
+      "Maintenance and Care": [
+    "Regularly inspect gears for signs of abrasion or deformation, particularly on gear teeth.",
+    "Use a soft brush or compressed air to gently remove dust and debris from gear teeth and internal surfaces.",
+    "Avoid using harsh chemicals or solvents that may degrade the PBT-GF30 material.",
+    "Store parts in a dry, controlled environment to prevent material degradation due to humidity.",
+    "Inspect the screw holes periodically for cracks or signs of stress, especially after repeated assembly and disassembly."
+  ],
+  "Common Problems and Solutions": [
+  {
+    "Problem": "Gears not rotating smoothly after assembly.",
+    "Solution": "Check for correct alignment of gears and remove any debris. Confirm that gear teeth are meshed correctly and verify if correct gear types (Type 2 and Type 7) are installed."
+  },
+  {
+    "Problem": "Difficulty removing gear from the Gearbox Cover.",
+    "Solution": "Confirm the correct gear type (Type 2 or Type 7) is used. Incorrect gears may jam or fit too tightly."
+  },
+  {
+    "Problem": "Gearbox Cover unable to close completely.",
+    "Solution": "Ensure the correct gear combination (Type 7 and Type 2) is properly placed. If misalignment persists, inspect gears and housing for damage or foreign objects."
+  },
+  {
+    "Problem": "Installed gearbox gears fail to rotate entirely.",
+    "Solution": "Verify if Type 2 Gear was incorrectly replaced by Type 8 Gear; replace with correct gear."
+  },
+  {
+    "Problem": "Visible stress marks or cracks around Gearbox Cover screw holes.",
+    "Solution": "Avoid overtightening screws. Replace cover if structural integrity is compromised due to excessive force during installation."
+  },
+  {
+    "Problem": "Gear teeth show premature wear or minor chipping.",
+    "Solution": "Check for proper alignment and seating during assembly. Use gentle force with a rubber mallet if required; replace damaged gears immediately to prevent further gearbox damage."
+  }
+  ]
+  },
+  "workflow": [
+  {
+    "id": "S1",
+    "requires": {
+      "variants": [
+        { "all_of": { "type 6 gearbox cover": 1 },    "any_of": {}, "forbid": ["type 6 gearbox housing","type 7 gear","type 2 gear","type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+        { "all_of": { "type 6 gearbox housing": 1 },  "any_of": {}, "forbid": ["type 6 gearbox cover","type 7 gear","type 2 gear","type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+        { "all_of": { "type 7 gear": 1 },             "any_of": {}, "forbid": ["type 6 gearbox cover","type 6 gearbox housing","type 2 gear","type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+        { "all_of": { "type 2 gear": 1 },             "any_of": {}, "forbid": ["type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+
+        { "all_of": { "type 5 gearbox cover": 1 },    "any_of": {}, "forbid": ["type 5 gearbox housing","type 8 gear","type 3 gear","type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] },
+        { "all_of": { "type 5 gearbox housing": 1 },  "any_of": {}, "forbid": ["type 5 gearbox cover","type 8 gear","type 3 gear","type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] },
+        { "all_of": { "type 8 gear": 1 },             "any_of": {}, "forbid": ["type 5 gearbox cover","type 5 gearbox housing","type 3 gear","type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] },
+        { "all_of": { "type 3 gear": 1 },             "any_of": {}, "forbid": ["type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] }
+      ]
+    }
+  },
+
+  {
+    "id": "S2",
+    "requires": {
+      "variants": [
+        { "all_of": { "type 6 gearbox housing": 1, "type 7 gear": 1 }, "any_of": {}, "forbid": ["type 6 gearbox cover","type 2 gear","type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+        { "all_of": { "type 5 gearbox housing": 1, "type 8 gear": 1 }, "any_of": {}, "forbid": ["type 5 gearbox cover","type 3 gear","type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] }
+      ]
+    }
+  },
+
+  {
+    "id": "S3",
+    "requires": {
+      "variants": [
+        { "all_of": { "type 6 gearbox housing": 1, "type 7 gear": 1, "type 2 gear": 1 }, "any_of": {}, "forbid": ["type 6 gearbox cover","type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+        { "all_of": { "type 5 gearbox housing": 1, "type 8 gear": 1, "type 3 gear": 1 }, "any_of": {}, "forbid": ["type 5 gearbox cover","type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] }
+      ]
+    }
+  },
+
+  {
+    "id": "S4",
+    "requires": {
+      "variants": [
+        { "all_of": { "type 6 gearbox cover": 1, "type 6 gearbox housing": 1, "type 7 gear": 1, "type 2 gear": 1 }, "any_of": {}, "forbid": ["type 5 gearbox cover","type 5 gearbox housing","type 8 gear","type 3 gear"] },
+        { "all_of": { "type 5 gearbox cover": 1, "type 5 gearbox housing": 1, "type 8 gear": 1, "type 3 gear": 1 }, "any_of": {}, "forbid": ["type 6 gearbox cover","type 6 gearbox housing","type 7 gear","type 2 gear"] }
+      ]
+    }
+  }
+]
+}
+

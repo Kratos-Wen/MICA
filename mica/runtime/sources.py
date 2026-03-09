@@ -13,13 +13,15 @@ def discover_yolo_weights(explicit: Optional[str]) -> str:
     if explicit:
         return explicit
     candidates = [
+        Path(__file__).resolve().parents[2] / "checkpoint" / "best.pt",
         Path(__file__).resolve().parents[2] / "best.pt",
+        Path.cwd() / "checkpoint" / "best.pt",
         Path.cwd() / "best.pt",
     ]
     for candidate in candidates:
         if candidate.exists():
             return str(candidate)
-    raise FileNotFoundError("YOLO weights not provided and no best.pt was found.")
+    raise FileNotFoundError("YOLO weights not provided and no bundled checkpoint/best.pt or best.pt was found.")
 
 
 def _camera_backend_candidates(name: str) -> list[Tuple[str, Optional[int]]]:

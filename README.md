@@ -46,7 +46,7 @@ The implementation supports both offline video evaluation and live camera infere
 
 - Every path written as `/path/to/...` is a placeholder.
 - Replace these placeholders with paths on your own machine before running.
-- Model weights and test assets are not bundled in this repository.
+- This repository already includes `dataset/components.json`, `dataset/KB.json`, and `checkpoint/best.pt`.
 
 ## Setup
 
@@ -63,10 +63,14 @@ pip install -r mica/requirements.txt
 
 ### 2. Prepare Required Assets
 
-Prepare the following files before testing:
+Bundled in this repository:
 
-- a YOLO checkpoint (`.pt`)
-- a knowledge base JSON file
+- `checkpoint/best.pt`
+- `dataset/components.json`
+- `dataset/KB.json`
+
+Prepare the following input before testing:
+
 - an offline video for evaluation, or a valid camera index for live mode
 
 Optional assets:
@@ -85,8 +89,8 @@ Run from the repository root.
 ```bash
 python -m mica \
   --video /path/to/video.mp4 \
-  --kb /path/to/kb.json \
-  --yolo-weights /path/to/best.pt \
+  --kb dataset/components.json \
+  --yolo-weights checkpoint/best.pt \
   --config mica/resources/config.example.yaml \
   --device cpu
 ```
@@ -96,14 +100,14 @@ python -m mica \
 ```bash
 python -m mica \
   --camera 0 \
-  --kb /path/to/kb.json \
-  --yolo-weights /path/to/best.pt \
+  --kb dataset/components.json \
+  --yolo-weights checkpoint/best.pt \
   --config mica/resources/config.example.yaml \
   --device cpu \
   --interactive
 ```
 
-If `--kb` is omitted, the example knowledge base in `mica/resources/kb.example.json` is used.
+If `--kb` is omitted, the CLI first uses `dataset/components.json`. If `--yolo-weights` is omitted, it first uses `checkpoint/best.pt`.
 
 ## Runtime Controls
 
@@ -130,8 +134,8 @@ Example:
 ```bash
 python -m mica \
   --video /path/to/video.mp4 \
-  --kb /path/to/kb.json \
-  --yolo-weights /path/to/best.pt \
+  --kb dataset/components.json \
+  --yolo-weights checkpoint/best.pt \
   --disable-retrieval-expert
 ```
 
@@ -145,6 +149,12 @@ Each run writes structured artifacts to the configured output directory, includi
 - `manifest.json`
 - optional annotated video
 - persistent ASF weights
+
+## Gear8 Dataset
+
+The Gear8 dataset used in this work will be released on Hugging Face.
+
+- Download link: **[Coming soon](https://huggingface.co/datasets)**
 
 ## Citation
 

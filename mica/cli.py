@@ -11,7 +11,19 @@ from mica.runtime.offline_runner import run_video
 from mica.runtime.sources import discover_yolo_weights
 
 
+def _repo_root() -> Path:
+    return Path(__file__).resolve().parents[1]
+
+
 def _default_kb_path() -> str:
+    candidates = [
+        _repo_root() / "dataset" / "components.json",
+        _repo_root() / "dataset" / "KB.json",
+        Path(__file__).resolve().parent / "resources" / "kb.example.json",
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return str(candidate)
     return str(Path(__file__).resolve().parent / "resources" / "kb.example.json")
 
 
