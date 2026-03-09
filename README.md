@@ -28,11 +28,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/teaser_placeholder.svg" alt="MICA teaser placeholder" width="92%">
-</p>
-
-<p align="center">
-  Replace <code>assets/teaser_placeholder.svg</code> with the paper teaser figure when the final visual is ready.
+  <img src="assets/mica_teaser.jpg" alt="MICA system overview" width="92%">
 </p>
 
 ## Overview
