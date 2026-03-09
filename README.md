@@ -2,28 +2,20 @@
   <h1>MICA: Multi-Agent Industrial Coordination Assistant</h1>
 
 <div>
-  Di Wen<sup>1</sup>&emsp;
-  Kunyu Peng<sup>1,2&#8224;</sup>&emsp;
-  Junwei Zheng<sup>1</sup>&emsp;
-  Yufan Chen<sup>1</sup>&emsp;
-  Yitian Shi<sup>1</sup>&emsp;
-  Jiale Wei<sup>1</sup>&emsp;
-  Ruiping Liu<sup>1</sup>&emsp;
-  Kailun Yang<sup>3</sup>&emsp;
-  Rainer Stiefelhagen<sup>1</sup>
+  <a href='https://cvhci.iar.kit.edu/people_2519.php' target='_blank'>Di Wen</a>&emsp;
+  <a href='https://cvhci.iar.kit.edu/people_2123.php' target='_blank'>Kunyu Peng&#8224;</a>&emsp;
+  <a href='https://junweizheng93.github.io/' target='_blank'>Junwei Zheng</a>&emsp;
+  <a href='https://cvhci.iar.kit.edu/people_2407.php' target='_blank'>Yufan Chen</a>&emsp;
+  <a href='https://www.ifl.kit.edu/english/staff_5912.php' target='_blank'>Yitian Shi</a>&emsp;
+  <a href='https://cvhci.iar.kit.edu/people_2640.php' target='_blank'>Jiale Wei</a>&emsp;
+  <a href='https://cvhci.iar.kit.edu/people_2408.php' target='_blank'>Ruiping Liu</a>&emsp;
+  <a href='https://yangkailun.com/' target='_blank'>Kailun Yang</a>&emsp;
+  <a href='https://cvhci.iar.kit.edu/people_596.php' target='_blank'>Rainer Stiefelhagen</a>
 </div>
 
 <br>
 
-<div>
-  <sup>1</sup>Karlsruhe Institute of Technology (KIT), Germany<br>
-  <sup>2</sup>INSAIT, Sofia University "St. Kliment Ohridski", Bulgaria<br>
-  <sup>3</sup>Hunan University, China
-</div>
-
-<br>
-
-<strong>arXiv preprint</strong><br>
+<strong>Accepted to <a href='https://2026.ieee-icra.org/' target='_blank'>IEEE ICRA 2026</a></strong><br>
 <sub>&#8224; Corresponding author</sub><br><br>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.15237-B31B1B.svg)](https://arxiv.org/abs/2509.15237)
@@ -229,6 +221,24 @@ Each run writes structured artifacts to the configured output directory, includi
 - `manifest.json`
 - optional annotated video
 - persistent ASF weights
+
+## Citation
+
+If you find this repository useful, please cite the current arXiv version:
+
+```bibtex
+@article{wen2025mica,
+  title={MICA: Multi-Agent Industrial Coordination Assistant},
+  author={Wen, Di and Peng, Kunyu and Zheng, Junwei and Chen, Yufan and Shi, Yitian and Wei, Jiale and Liu, Ruiping and Yang, Kailun and Stiefelhagen, Rainer},
+  journal={arXiv preprint arXiv:2509.15237},
+  year={2025},
+  doi={10.48550/arXiv.2509.15237}
+}
+```
+
+## Acknowledgment
+
+This repository builds on and interfaces with several open-source projects, including [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), [PyTorch](https://pytorch.org/), [Torchvision](https://github.com/pytorch/vision), [OpenCV](https://opencv.org/), [OpenCLIP](https://github.com/mlfoundations/open_clip) for optional gallery embeddings, and [Ollama](https://github.com/ollama/ollama) for local LLM serving. We thank the maintainers and contributors of these projects for making their tools publicly available.
 
 ## Notes
 
