@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "name": "Type 6 Gearbox Housing",
+      "desc": "Protective housing.",
+      "key_features": [
+        "Rigid",
+        "Precision fit"
+      ],
+      "tools": [
+        "Screwdriver"
+      ],
+      "safety": [
+        "Wear gloves"
+      ],
+      "parts_list": [
+        "Type 6 Gearbox Cover",
+        "Type 7 Gear"
+      ],
+      "assembly_steps": [
+        "Locate housing",
+        "Place gear",
+        "Tighten bolt"
+      ],
+      "maintenance": [
+        "Inspect regularly"
+      ],
+      "problems": [
+        "Loose bolts \u2192 retighten"
+      ]
+    },
+    {
+      "name": "Type 7 Gear",
+      "desc": "Mating gear.",
+      "key_features": [
+        "Hardened teeth"
+      ],
+      "tools": [
+        "Tweezers"
+      ],
+      "safety": [
+        "Keep fingers clear"
+      ],
+      "parts_list": [
+        "Type 6 Gearbox Housing"
+      ],
+      "assembly_steps": [
+        "Place gear into housing"
+      ],
+      "maintenance": [
+        "Lubricate"
+      ],
+      "problems": [
+        "Chips \u2192 replace"
+      ]
+    }
+  ],
+  "aliases": {
+    "type 6 gearbox housing": [
+      "type_6_gearbox_housing",
+      "gearbox-housing",
+      "housing"
+    ],
+    "type 7 gear": [
+      "gear_7",
+      "type7_gear"
+    ]
+  },
+  "workflow": [
+    {
+      "id": "S1",
+      "name": "Locate housing",
+      "requires": {
+        "all_of": {
+          "type 6 gearbox housing": 1
+        }
+      }
+    },
+    {
+      "id": "S2",
+      "name": "Place gear",
+      "requires": {
+        "all_of": {
+          "type 6 gearbox housing": 1,
+          "type 7 gear": 1
+        }
+      }
+    },
+    {
+      "id": "S3",
+      "name": "Tighten bolt",
+      "requires": {
+        "all_of": {
+          "bolt": 1
+        },
+        "any_of": {
+          "screwdriver": 1
+        }
+      }
+    }
+  ]
+}

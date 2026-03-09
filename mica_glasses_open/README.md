@@ -5,52 +5,49 @@
 
 ## Overview
 
-This repository provides the open-source implementation of the MICA pipeline.
-The codebase is organized around the three method components described in the paper:
+This repository provides a clean, modular implementation of the MICA pipeline described in the accompanying paper.
+The codebase is organized around the three core modules in the method:
 
 - `Depth-guided Object Context Extraction`
 - `Adaptive Assembly Step Recognition`
 - `MICA-core`
 
-The implementation supports both offline video evaluation and live camera inference.
-To preserve the existing system behavior, the original backend logic is retained inside `mica_glasses_open/legacy_impl/`, while the public-facing structure is exposed through paper-aligned modules and a shared runtime.
+The runtime supports both offline video evaluation and live camera inference.
+To preserve implementation continuity, the current backend logic is retained under `legacy_impl/`, while the public package surface is exposed through paper-aligned modules and a shared runtime.
 
 ## Path Configuration Notice
 
-- Every path written as `/path/to/...` is a placeholder.
+- Every path written as `/path/to/...` in this README is a placeholder.
 - Replace these placeholders with paths on your own machine before running.
-- Model weights and test assets are not bundled in this repository.
+- If `--yolo-weights` is omitted, the CLI looks for `best.pt` in the working directory.
 
 ## Repository Layout
 
 ```text
-MICA/
-  LICENSE
-  README.md
-  mica_glasses_open/
-    cli.py
-    config.py
-    types.py
-    legacy_impl/
-      agents/
-      core/
-    paper_modules/
-      depth_guided_object_context_extraction.py
-      adaptive_assembly_step_recognition.py
-      mica_core.py
-    runtime/
-      pipeline.py
-      offline_runner.py
-      live_runner.py
-      interaction.py
-      artifacts.py
-      sources.py
-      ui.py
-    resources/
-      config.example.yaml
-      kb.example.json
-      prompts.yaml
-    requirements.txt
+mica_glasses_open/
+  cli.py
+  config.py
+  types.py
+  legacy_impl/
+    agents/
+    core/
+  paper_modules/
+    depth_guided_object_context_extraction.py
+    adaptive_assembly_step_recognition.py
+    mica_core.py
+  runtime/
+    pipeline.py
+    offline_runner.py
+    live_runner.py
+    interaction.py
+    artifacts.py
+    sources.py
+    ui.py
+  resources/
+    config.example.yaml
+    kb.example.json
+    prompts.yaml
+  requirements.txt
 ```
 
 ## Setup
@@ -63,21 +60,21 @@ Create and activate a clean Python environment, then install dependencies:
 python -m venv .venv
 source .venv/bin/activate
 pip install -U pip
-pip install -r mica_glasses_open/requirements.txt
+pip install -r requirements.txt
 ```
 
-### 2. Prepare Required Assets
+### 2. Required Assets
 
-Prepare the following files before testing:
+Prepare the following assets before testing:
 
-- a YOLO checkpoint (`.pt`)
-- a knowledge base JSON file
-- an offline video for evaluation, or a valid camera index for live mode
+- A YOLO checkpoint (`.pt`)
+- A knowledge base JSON file
+- An offline video for test runs, or a valid camera index for live runs
 
 Optional assets:
 
-- a retrieval gallery organized by step folders
-- a local LLM endpoint for MICA-core question answering
+- A retrieval gallery organized by step folders
+- A local Ollama-compatible endpoint for MICA-core question answering
 
 If `gallery.root` is left empty in the config, the runtime skips gallery indexing and still runs.
 
@@ -85,16 +82,16 @@ If `gallery.root` is left empty in the config, the runtime skips gallery indexin
 
 ### 1. Depth-guided Object Context Extraction
 
-This module covers:
+This module handles:
 
 - object detection
 - temporal detection fusion
 - depth estimation
 - depth-guided relevant object selection
 
-Entry point:
+Implementation entry point:
 
-- `mica_glasses_open/paper_modules/depth_guided_object_context_extraction.py`
+- `paper_modules/depth_guided_object_context_extraction.py`
 
 ### 2. Adaptive Assembly Step Recognition
 
@@ -104,9 +101,9 @@ This module combines:
 - a retrieval expert over reference images
 - Adaptive Step Fusion (ASF) for online combination and correction
 
-Entry point:
+Implementation entry point:
 
-- `mica_glasses_open/paper_modules/adaptive_assembly_step_recognition.py`
+- `paper_modules/adaptive_assembly_step_recognition.py`
 
 ### 3. MICA-core
 
@@ -117,13 +114,13 @@ This module provides:
 - multi-topology agent orchestration
 - optional safety auditing
 
-Entry point:
+Implementation entry point:
 
-- `mica_glasses_open/paper_modules/mica_core.py`
+- `paper_modules/mica_core.py`
 
 ## Run
 
-Run from the repository root.
+From the repository root:
 
 ### Offline Video
 
@@ -132,7 +129,7 @@ python -m mica_glasses_open \
   --video /path/to/video.mp4 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
-  --config mica_glasses_open/resources/config.example.yaml \
+  --config resources/config.example.yaml \
   --device cpu
 ```
 
@@ -143,12 +140,12 @@ python -m mica_glasses_open \
   --camera 0 \
   --kb /path/to/kb.json \
   --yolo-weights /path/to/best.pt \
-  --config mica_glasses_open/resources/config.example.yaml \
+  --config resources/config.example.yaml \
   --device cpu \
   --interactive
 ```
 
-If `--kb` is omitted, the example knowledge base in `mica_glasses_open/resources/kb.example.json` is used.
+If `--kb` is omitted, the example knowledge base in `resources/kb.example.json` is used.
 
 ## Runtime Controls
 
@@ -193,6 +190,6 @@ Each run writes structured artifacts to the configured output directory, includi
 
 ## Notes
 
-- This repository is intended as the implementation of the accompanying MICA paper.
-- `mica_glasses_open/legacy_impl/` stores the preserved backend implementation; public-facing experimentation should target `paper_modules/` and `runtime/`.
+- The repository is intended as an implementation of the accompanying MICA paper.
+- `legacy_impl/` stores the preserved backend implementation; public-facing experimentation should target `paper_modules/` and `runtime/`.
 - When the local LLM endpoint is unavailable, the perception and step-recognition pipeline still runs, while QA falls back to a lightweight offline response path.

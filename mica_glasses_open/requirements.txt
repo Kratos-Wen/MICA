@@ -1,0 +1,11 @@
+ultralytics
+opencv-python
+numpy
+pyyaml
+requests
+torch
+torchvision
+scikit-learn
+# Optional for gallery embed=clip:
+# open-clip-torch
+# Pillow

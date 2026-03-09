@@ -1,0 +1,97 @@
+video:
+  stride: 3
+  draw: true
+  write_annotated: false
+  output_fps: null
+
+camera:
+  backend: auto
+  width: 1280
+  height: 720
+  fps: 30.0
+  buffer_size: 1
+  warmup_frames: 8
+  warmup_delay_ms: 40
+  read_retry_limit: 30
+  read_retry_delay_ms: 50
+  show_focus: true
+  window_name: "MICA Live"
+  focus_window_name: "MICA Focus"
+
+detection:
+  conf: 0.25
+  tta: true
+  use_builtin_tta: true
+  nms_iou: 0.5
+
+fusion:
+  window: 5
+  iou_thr: 0.5
+
+depth_context:
+  tau_p: 80.0
+  tau_d: 0.12
+  use_relevant_for_rules: false
+
+stability:
+  stable_n: 5
+
+asf:
+  beta: 0.9
+  w_init: {s: 0.5, r: 0.5}
+  K: 4
+  steps: ["S1", "S2", "S3", "S4"]
+  leak: {s: 0.05, r: 0.05}
+  clamp: {lo: 0.05, hi: 0.95}
+  reward: 1.05
+  penalty: 0.90
+  conf_freeze: 0.80
+  gamma: 2.0
+  eta: 0.10
+  trust: 0.15
+  transitions:
+    S1: ["S1", "S2"]
+    S2: ["S1", "S2", "S3"]
+    S3: ["S2", "S3", "S4"]
+    S4: ["S3", "S4"]
+  lambda_trans: 2.0
+  lambda_rule: 1.0
+  expo_rho: 0.5
+  b_cap: 0.5
+  floor_per_class: 0.02
+  balance_window: 50
+  balance_tau: 0.6
+
+gallery:
+  root: ""
+  exts: [".jpg", ".jpeg", ".png", ".bmp"]
+  embed: "rgb-mean-8x8"
+  topk: 5
+
+llm:
+  model: "qwen2.5:7b-instruct"
+  url: "http://localhost:11434/api/generate"
+  temperature: 0.2
+  max_tokens: 160
+  timeout: 30
+
+agent:
+  topology: "mica"
+
+interaction:
+  camera_prompt_on_stable: false
+
+ablation:
+  use_depth_guided_context: true
+  use_state_graph_expert: true
+  use_retrieval_expert: true
+  use_asf: true
+  use_mica_core: true
+
+runlog:
+  save_dir: runs_open
+
+safety:
+  use_llm: true
+  rule_append: false
+  append_on: ["UNSAFE"]
