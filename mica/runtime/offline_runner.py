@@ -8,7 +8,7 @@ from pathlib import Path
 import cv2
 
 from mica.legacy_impl.core.kb import load_kb
-from mica.paper_modules.depth_guided_object_context_extraction import draw_overlay
+from mica.modules.depth_guided_object_context_extraction import draw_overlay
 from mica.runtime.artifacts import RunArtifacts
 from mica.runtime.interaction import handle_stable_console_interaction
 from mica.runtime.kb_utils import ensure_parent

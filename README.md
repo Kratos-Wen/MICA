@@ -44,7 +44,7 @@ The codebase is organized around the three method components described in the pa
 - `MICA-core`
 
 The implementation supports both offline video evaluation and live camera inference.
-To preserve the existing system behavior, the original backend logic is retained inside `mica/legacy_impl/`, while the public-facing structure is exposed through paper-aligned modules and a shared runtime.
+To preserve the existing system behavior, the original backend logic is retained inside `mica/legacy_impl/`, while the public-facing structure is exposed through modules and a shared runtime.
 
 ## Path Configuration Notice
 
@@ -65,7 +65,7 @@ MICA/
     legacy_impl/
       agents/
       core/
-    paper_modules/
+    modules/
       depth_guided_object_context_extraction.py
       adaptive_assembly_step_recognition.py
       mica_core.py
@@ -112,7 +112,7 @@ Optional assets:
 
 If `gallery.root` is left empty in the config, the runtime skips gallery indexing and still runs.
 
-## Paper-Aligned Modules
+## Modules
 
 ### 1. Depth-guided Object Context Extraction
 
@@ -125,7 +125,7 @@ This module covers:
 
 Entry point:
 
-- `mica/paper_modules/depth_guided_object_context_extraction.py`
+- `mica/modules/depth_guided_object_context_extraction.py`
 
 ### 2. Adaptive Assembly Step Recognition
 
@@ -137,7 +137,7 @@ This module combines:
 
 Entry point:
 
-- `mica/paper_modules/adaptive_assembly_step_recognition.py`
+- `mica/modules/adaptive_assembly_step_recognition.py`
 
 ### 3. MICA-core
 
@@ -150,7 +150,7 @@ This module provides:
 
 Entry point:
 
-- `mica/paper_modules/mica_core.py`
+- `mica/modules/mica_core.py`
 
 ## Run
 

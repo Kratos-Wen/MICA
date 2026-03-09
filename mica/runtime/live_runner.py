@@ -9,7 +9,7 @@ from pathlib import Path
 import cv2
 
 from mica.legacy_impl.core.kb import load_kb
-from mica.paper_modules.depth_guided_object_context_extraction import (
+from mica.modules.depth_guided_object_context_extraction import (
     draw_overlay,
     safe_crop,
 )

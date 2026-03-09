@@ -14,13 +14,13 @@ from mica.legacy_impl.core.kb import build_alias_map
 from mica.legacy_impl.core.llm import LLM
 from mica.legacy_impl.core.retrieval import GalleryIndex
 from mica.legacy_impl.core.yolo import YOLODetector
-from mica.paper_modules.adaptive_assembly_step_recognition import (
+from mica.modules.adaptive_assembly_step_recognition import (
     AdaptiveAssemblyStepRecognition,
 )
-from mica.paper_modules.depth_guided_object_context_extraction import (
+from mica.modules.depth_guided_object_context_extraction import (
     DepthGuidedObjectContextExtraction,
 )
-from mica.paper_modules.mica_core import MICACore, load_prompts
+from mica.modules.mica_core import MICACore, load_prompts
 from mica.types import FrameDecision
 
 
