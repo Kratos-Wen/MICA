@@ -9,6 +9,7 @@
   <a href='https://scholar.google.com/citations?hl=en&user=DqU2TTEAAAAJ' target='_blank'>Yitian Shi</a>&emsp;
   <a href='https://scholar.google.com/citations?hl=en&user=dVpZgIUAAAAJ' target='_blank'>Jiale Wei</a>&emsp;
   <a href='https://scholar.google.com/citations?hl=en&user=tJYUHDgAAAAJ' target='_blank'>Ruiping Liu</a>&emsp;
+  <br>
   <a href='https://yangkailun.com/' target='_blank'>Kailun Yang</a>&emsp;
   <a href='https://scholar.google.com/citations?hl=en&user=SFCOJxMAAAAJ' target='_blank'>Rainer Stiefelhagen</a>
 </div>
@@ -19,7 +20,7 @@
 <sub>&#8224; Corresponding author</sub><br><br>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.15237-B31B1B.svg)](https://arxiv.org/abs/2509.15237)
-[![DOI](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2509.15237-0A66C2.svg)](https://doi.org/10.48550/arXiv.2509.15237)
+[![DOI](https://img.shields.io/badge/DOI-Record-0A66C2.svg)](https://doi.org/10.48550/arXiv.2509.15237)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-0A66C2.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Kratos-Wen/MICA?style=social&cacheSeconds=300)](https://github.com/Kratos-Wen/MICA)
