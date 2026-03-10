@@ -154,7 +154,7 @@ Each run writes structured artifacts to the configured output directory, includi
 
 The Gear8 dataset used in this work will be released on Hugging Face.
 
-- Download link: **[Coming soon](https://huggingface.co/datasets)**
+- Download link: **[Gear8](https://huggingface.co/datasets/KratosWen/Gear8)**
 
 ## Citation
 
